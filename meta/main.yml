@@ -43,6 +43,10 @@ galaxy_info:
   #   - 1.0
   #   - 7
   #   - 99.99
+  platforms:
+    - name: Ubuntu
+      versions:
+        - xenial
 
   galaxy_tags:
     - csirtg
