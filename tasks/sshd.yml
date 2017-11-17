@@ -8,6 +8,5 @@
   lineinfile:
     dest: "/etc/ssh/sshd_config"
     regexp: "^Port"
-    line: "Port {{ sshd_port }}"
-  notify: "Restart sshd"
+    line: "Port {{ sshd_alt_port }}"
   when: v.stat.exists == false

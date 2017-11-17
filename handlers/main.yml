@@ -1,5 +1,4 @@
 ---
-# handlers file for sshlogger-ansible-role
 - name: Restart sshd
   service:
     name: sshd
